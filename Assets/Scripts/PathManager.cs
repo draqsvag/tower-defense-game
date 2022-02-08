@@ -25,7 +25,7 @@ public class PathManager : MonoBehaviour
                 Quaternion targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
                 follower.position = Vector3.MoveTowards(follower.position, path[i].position, Time.deltaTime * speed);
-                follower.rotation = Quaternion.Slerp(follower.rotation, targetRotation, Time.deltaTime * 20); ;
+                follower.GetChild(0).rotation = Quaternion.Slerp(follower.GetChild(0).rotation, targetRotation, Time.deltaTime * 20); ;
                 yield return null;
             }
 

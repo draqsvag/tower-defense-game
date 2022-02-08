@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b2b4d912834bb34d86314f7f79516ce, type: 3}
+  m_Name: TurretPreview
+  m_EditorClassIdentifier: 
+  buildObject: {fileID: 4909335936667847108, guid: 9dd19136338b8aa46ba4321999213b2e, type: 3}
+  previewSprite: {fileID: 21300000, guid: d108d61b6d22034498e97de05a0b1c46, type: 3}
+  buildingLayer:
+    serializedVersion: 2
+    m_Bits: 128
